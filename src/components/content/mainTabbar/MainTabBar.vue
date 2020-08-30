@@ -27,7 +27,7 @@
 </template>
 
 
-<script>
+<script scoped>
   import TabBar from 'components/common/tabbar/TabBar.vue'
   import TabBarItem from 'components/common/tabbar/TabBarItem.vue'
 

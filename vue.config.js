@@ -1,6 +1,11 @@
 module.exports = {
 	configureWebpack: {
-		resolve : {
+		devServer:{
+			// port: 4000,
+			// inline: true,//是否实时刷新
+			disableHostCheck: true//阻止简餐开启外网
+		}
+		,resolve : {
 			// 别名的配置
 			alias: {
 				'assets': '@/assets',

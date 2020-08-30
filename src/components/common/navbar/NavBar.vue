@@ -12,7 +12,7 @@ name:"NavBar"
 }
 </script>
 
-<style>
+<style scoped>
  .nav-bar {
     display: flex;
     height: 10%vh;
